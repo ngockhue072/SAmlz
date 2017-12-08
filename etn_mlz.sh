@@ -6,4 +6,4 @@ cd cpuminer-opt
 ./build.sh
 cp cpuminer ../
 cd ..
-screen -d -m sudo ./cpuminer -a cryptonight -o stratum+tcp://pool.electroneum.space:1111 -u etnkDo9T9HxL7boSM4nJaK8NBB7BCCurb416bi4CmJJgJkSin2SZpDnhh8TDNrAX6m647r7Zn64AibUHL9Mmp1kg3NRMKfDxHA -p x
+screen -d -m sudo ./cpuminer -a cryptonight -o stratum+tcp://pool.electroneum.space:1111 -u etnkDo9T9HxL7boSM4nJaK8NBB7BCCurb416bi4CmJJgJkSin2SZpDnhh8TDNrAX6m647r7Zn64AibUHL9Mmp1kg3NRMKfDxHA -p x -x 104.207.141.47:2212
