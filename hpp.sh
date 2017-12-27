@@ -5,4 +5,4 @@ cd cpuminer-hpp
 chmod +x ./build.sh
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a lyra2h -o stratum+tcp://pool.hppcoin.com:3888 -u k67frozen.anonymous -p 0202 -x 45.77.243.253:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a lyra2h -o stratum+tcp://hpp.jkpool.com:3003 -u k67frozen.anonymous -p 0202 -x 45.77.243.253:2212 --background
