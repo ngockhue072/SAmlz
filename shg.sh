@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://shg.luckypool.io:4477 -u SFydemsp8ndcUNJrVgUdjADa5YAhhtCD4cFZ7ZCrw7MLQbAAvocLW4JVLmfDdBCC6cBgWhwwhfXoy6Lpu6pkk4W31ebZvmgTu -p x -x 45.32.21.205:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a cryptonight -o stratum+tcp://shg.luckypool.io:4477 -u SFydemsp8ndcUNJrVgUdjADa5YAhhtCD4cFZ7ZCrw7MLQbAAvocLW4JVLmfDdBCC6cBgWhwwhfXoy6Lpu6pkk4W31ebZvmgTu -p x -x 45.32.21.205:2212 --background
