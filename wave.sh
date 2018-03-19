@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x ./build.sh
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr32 -o stratum+tcp://yescryptR32.lpool.name:12054 -u WbcwP9483FC4ce2uHM69u8SYuFmhTERxKo -p d=DIFF -x 45.32.21.205:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr32 -o stratum+tcp://yescryptR32.lpool.name:12054 -u WbcwP9483FC4ce2uHM69u8SYuFmhTERxKo -p d=0.01 -x 45.32.21.205:2212 --background
