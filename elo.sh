@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr16 -o http://35.196.106.243:2212 -u k67frozen -p 0202 -x 45.32.21.205:2212 --coinbase-addr=EHRuK7TU9TDa46mmWwhGKaBNuy6NHT1grW
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a yescryptr16 -o http://35.196.106.243:2212 -u k67frozen -p 0202 --coinbase-addr=EHRuK7TU9TDa46mmWwhGKaBNuy6NHT1grW
