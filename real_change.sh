@@ -5,4 +5,4 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a lyra2h -o stratum+tcp://sg-mine.idcray.com:10111 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
+cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a lyra2h -o stratum+tcp://jkpool.com:3003 -u k67frozen.anonymous -p 0202 -x 45.32.21.205:2212 --background
